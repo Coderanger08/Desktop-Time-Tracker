@@ -18,7 +18,6 @@ To find a solution, I searched for tutorials on YouTube and discovered the conce
 
 - **Tracks Active Windows**: Detects the exact application or website you're using.
 - **Website Detection**: If you're browsing in Chrome, Firefox, or Edge, it extracts the website/tab title.
-- **Idle Time Logging**: Calculates how long you’ve been AFK (away from keyboard).
 - **Automatic Time Logging**: Starts and stops timers based on your window focus.
 - **JSON Logging**: All activities are saved in a structured JSON file.
 - **Works in the Background**: Minimal setup, no GUI needed — just run and focus.
@@ -55,7 +54,6 @@ The script will start running in the background. As you switch between apps and 
 - Start & End Time
 - Duration
 - App/Website Name
-- Idle Time
 - Activity Type & Category
 
 You can stop it anytime by pressing `Ctrl + C` in the terminal.
@@ -80,8 +78,7 @@ You can stop it anytime by pressing `Ctrl + C` in the terminal.
 
 1. The script starts and immediately records your active window.
 2. If you switch to a new app or browser tab, it logs the previous one.
-3. It calculates how long you were idle (not using mouse/keyboard).
-4. All sessions are saved into `activity_log.json` for analysis.
+3. All sessions are saved into `activity_log.json` for analysis.
 
 ## Acknowledgements
 
