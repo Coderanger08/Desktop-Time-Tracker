@@ -1,8 +1,5 @@
-
-
 ### 📄 `README.md`
 
-```markdown
 # Desktop Productivity Tracker
 
 ## Overview
@@ -95,4 +92,3 @@ You can stop it anytime by pressing `Ctrl + C` in the terminal.
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-```
